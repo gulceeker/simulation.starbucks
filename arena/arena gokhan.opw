@@ -1,0 +1,21 @@
+[RESOURCES]
+Hot Beverage Machine
+Feeder
+Cashier
+Cold Beverage Machine
+Barista
+[VARIABLES]
+Is No Order.NumberOut True
+Cheese Cake
+Bevarage and Bill.NumberOut
+Bevarage and Bill.NumberIn
+Food Order.NumberIn
+If Cold Beverage Left.NumberOut False
+Dispose 1.NumberOut
+If Cold Beverage Left.NumberOut True
+Arrive.NumberOut
+Pie
+Food Order.NumberOut
+Cold.NumberOut
+Cold.NumberIn
+Is No Order.NumberOut False

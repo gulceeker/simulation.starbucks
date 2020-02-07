@@ -1,0 +1,87 @@
+SIMAN Run Controller.
+
+4.5186931 Hours>
+                                      ARENA Simulation Results
+                                  gokhanmakaraci - License: STUDENT
+
+                                  Summary for Replication 1 of 1
+
+Project: Unnamed Project                                             Run execution date : 5/ 8/2019
+Analyst: gokhanmakaraci                                              Model revision date: 5/ 8/2019
+
+Replication ended at time      : 4.5186931 Hours 
+Base Time Units: Hours
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+Customer.VATime                             .13170     (Insuf)    .00000     .42243         22    
+Customer.NVATime                            .00000     (Insuf)    .00000     .00000         22    
+Customer.WaitTime                           .01824     (Insuf)    .00000     .15487         22    
+Customer.TranTime                           .15833     (Insuf)    .08333     .20000         22    
+Customer.OtherTime                          .01343     (Insuf)    .00000     .06029         22    
+Customer.TotalTime                          .32171     (Insuf)    .08333     .63661         22    
+Bevarage and Bill.Queue.WaitingTime         .00317     (Insuf)    .00000     .03545         18    
+Hot Beverage Start.Queue.WaitingTime        .00495     (Insuf)    .00000     .05934         12    
+Food Order.Queue.WaitingTime                .00000     (Insuf)    .00000     .00000          1    
+Cold.Queue.WaitingTime                      .02036     (Insuf)    .00000     .15487         14    
+Barista Comes Back to Machine.Queue.Waitin  .00000     (Insuf)    .00000     .00000         12    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+Customer.WIP                                1.6433     (Insuf)    .00000     4.0000     2.0000    
+Hot Beverage Machine.NumberBusy             .21299     (Insuf)    .00000     1.0000     .00000    
+Hot Beverage Machine.NumberScheduled        1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Hot Beverage Machine.Utilization            .21299     (Insuf)    .00000     1.0000     .00000    
+Feeder.NumberBusy                           .00635     (Insuf)    .00000     1.0000     .00000    
+Feeder.NumberScheduled                      1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Feeder.Utilization                          .00635     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberBusy                          .13621     (Insuf)    .00000     1.0000     .00000    
+Cashier.NumberScheduled                     1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cashier.Utilization                         .13621     (Insuf)    .00000     1.0000     .00000    
+Cold Beverage Machine.NumberBusy            .38365     (Insuf)    .00000     1.0000     .00000    
+Cold Beverage Machine.NumberScheduled       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cold Beverage Machine.Utilization           .38365     (Insuf)    .00000     1.0000     .00000    
+Barista.NumberBusy                          .52576     (Insuf)    .00000     2.0000     .00000    
+Barista.NumberScheduled                     2.0000     (Insuf)    2.0000     2.0000     2.0000    
+Barista.Utilization                         .26288     (Insuf)    .00000     1.0000     .00000    
+Bevarage and Bill.Queue.NumberInQueue       .01262     (Insuf)    .00000     1.0000     .00000    
+Hot Beverage Start.Queue.NumberInQueue      .01313     (Insuf)    .00000     1.0000     .00000    
+Food Order.Queue.NumberInQueue              .00000     (Insuf)    .00000     .00000     .00000    
+Cold.Queue.NumberInQueue                    .06307     (Insuf)    .00000     1.0000     .00000    
+Barista Comes Back to Machine.Queue.Number  .00000     (Insuf)    .00000     .00000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Counter 1                                        26  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+Customer.NumberIn                           24.000    
+Customer.NumberOut                          22.000    
+Hot Beverage Machine.NumberSeized           12.000    
+Hot Beverage Machine.ScheduledUtilization   .21299    
+Feeder.NumberSeized                         1.0000    
+Feeder.ScheduledUtilization                 .00635    
+Cashier.NumberSeized                        18.000    
+Cashier.ScheduledUtilization                .13621    
+Cold Beverage Machine.NumberSeized          14.000    
+Cold Beverage Machine.ScheduledUtilization  .38365    
+Barista.NumberSeized                        38.000    
+Barista.ScheduledUtilization                .26288    
+System.NumberOut                            22.000    
+
+
+Simulation run time: 0.93 minutes.
+Simulation run complete.
